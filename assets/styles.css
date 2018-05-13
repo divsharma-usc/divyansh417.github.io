@@ -478,10 +478,13 @@ body{
 
 @media only screen and (max-width: 600px) {
    #mid{
-   	height: 350px;
+   	height: wrap-content;
    }
    #mid h1{
    	font-size: 24px;
+   }
+   #mid p{
+   	 width: 80%;
    }
    #bottom{
       height: 130px;
@@ -504,6 +507,7 @@ body{
    	align-items: center;
    	justify-content: center;
    	margin-bottom: 20px;
+   	font-size: 15px;
    }
    #work{
    	margin-top: 10px;
@@ -545,6 +549,13 @@ body{
    	 justify-content: center;
    	 width: 95%;
    }
+   #course{
+	padding: 10px;
+	color: #768492;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+  }
    #Award{
    	width: 95%
    }
@@ -553,6 +564,11 @@ body{
    	padding-bottom: 20px;
    	padding-right: 10px;
    	height: wrap-content;
+   	font-size: 18px;
+   }
+   #activities li{
+	font-size: 16px;
+	margin-left: 30px;
    }
    .yes{
 	font-size: 14px;
