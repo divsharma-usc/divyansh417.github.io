@@ -348,7 +348,7 @@ body{
     -webkit-transform: translateZ(0);
 }
 .type{
-	color: #ccd1d6;
+	color: #a4aab3;
     font-size: 14px;
     font-weight: 400;
     font-family: "Lato", arial, sans-serif;
@@ -478,7 +478,7 @@ body{
 
 @media only screen and (max-width: 600px) {
    #mid{
-   	height: wrap-content;
+   	height: 300px;
    }
    #mid h1{
    	font-size: 24px;

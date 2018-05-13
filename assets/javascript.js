@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
 
-  var dataText = [ "developer", "traveler", "student"];
+  var dataText = [ "developer","coder", "traveller", "learner"];
 
 
 
