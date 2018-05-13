@@ -550,6 +550,9 @@ body{
    }
    #Extra{
    	width: 95%;
+   	display: table;
+   	padding-bottom: 20px;
+   	padding-right: 10px;
    }
    .yes{
 	font-size: 14px;
