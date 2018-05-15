@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 
 $(window).scroll(function() {
-   var hT = $('#skillbar').offset().top,
-       hH = $('#skillbar').outerHeight(),
+   var hT = $('#skills').offset().top,
+       hH = $('#skills').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS >= (hT+hH-wH)){
